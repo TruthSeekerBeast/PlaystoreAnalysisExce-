@@ -48,6 +48,8 @@ After sorting these values from lowest to highest and plotting chart we can get 
 
 
 
+> ### Family, Games, tools, Medical and Books are the top 5 categories in terms of app counts
+
 
 
 ### Market shares on basis of types. [Free/Paid]
@@ -82,7 +84,8 @@ We can easily make chart now, I preferred Pie chart for showing Proportion of 10
 
 Conclusion: As we can see Free Apps are dominating the market.  
 
-#### 93% of apps are available for Free.
+> #### 93% of apps are available for Free.
+>
 
 
 
@@ -102,7 +105,8 @@ And put Price in VALUES, After that By sorting values from Lowest to highest for
 
 
 
-#### Finance, Lifestyles and Events categories apps are costlier then other categories.
+> #### Finance, Lifestyles and Events categories apps are costlier then other categories.
+>
 
 Further we can analyze those 3 categories to see why they have such high values?
 
@@ -118,15 +122,13 @@ And then sort the table prices from Low to High and draw Bar chart will create b
 
 
 
-**Conclusions:**
+**Conclusion:**
 
-There is only a single app for Event category and it's price is 109$ and thus category has higher values overall.
-
-Though, In Finance and Lifestyle has more apps with prices less than it's average values there are some apps which have higher prices and thus Average values are higher for categories also.
-
-Side note: Those apps which have higher prices shows similarities in their names, and it could be similar types of apps also.
-
-
+> #### There is only a single app for Event category and it's price is 109$ and thus category has higher value overall.
+>
+> #### Though, In Finance and Lifestyle has more apps with prices less than it's average values there are some apps which have higher prices and thus Average values are higher for categories also.
+>
+> #### Side note: Those apps which have higher prices shows similarities in their names, and it could be similar types of apps also.
 
 
 
@@ -138,9 +140,15 @@ As, values in this column is in format like 25000+
 
 We will remove that **+** sign very first and **then convert it to number data type**
 
+Then I took pivot table and calculated Average install counts for each category and plotted them.
+
 
 
 ![1554208480512](images/Avg_installs_category.png)
+
+
+
+> #### Communication and social apps have highest installs as it include giant apps like Facebook, Whatsapp, Instagram etc. followed by video players, Productivity and Games.
 
 
 
@@ -148,15 +156,15 @@ We will remove that **+** sign very first and **then convert it to number data t
 
 There is content rating which every developer must submit for distributing app on play store, This basically indicates the Age group which can use this app.
 
-There are categories like: 
+Categories : **Everyone, Teen, Mature 17+, Everyone 10+, Adults only 18+** 
 
-Everyone, Teen, Mature 17+, Everyone 10+, Adults only 18+ 
-
-For getting these counts, I have took 
+For getting these counts, I have took simple pivot table of Content rating with it's own count.
 
 ![1554271777274](images/content_ratings.png)
 
 
+
+> #### Clearly maximum apps are suitable for every age group and also around 11% of apps are targeted for Teens. There are also considerable amount of apps: 5% which are targeting to 17-18+ age users. 
 
 
 
