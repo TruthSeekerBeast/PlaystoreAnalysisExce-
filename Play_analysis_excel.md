@@ -152,7 +152,9 @@ Then I took pivot table and calculated Average install counts for each category 
 
 
 
-### Content rating distribution of apps
+
+
+### Content rating distribution of apps.
 
 There is content rating which every developer must submit for distributing app on play store, This basically indicates the Age group which can use this app.
 
@@ -197,3 +199,44 @@ For getting these counts, I have took simple pivot table of Content rating with 
 | PokÃ©mon GO                                          |
 | Pou                                                  |
 
+
+
+### App sizes in Mb 
+
+In original data, App sizes were given in Mb and kb and also some entries are also "Varies with size" for adjusting those here are the steps:
+
+1. By applying formula I have checked if size is "Varies with devices", If so then change it to 0 for now
+
+2. Then if the last character in size cell if it is "M" then discard just last character, but if it is k then we will remove last character and divide it by 1024 to convert it into Mb.
+
+3. Then I have converted whole column to numbers from text.
+
+4. So, now we have all numbers in Mb and 0 values which we took for "Varies with devices"
+
+5. Then for those values I have checked Mean and Median values of available values but they differ with almost double margin. 
+
+   | Values   | Item   |
+   | -------- | ------ |
+   | 18.15346 | Mean   |
+   | 9.2      | Median |
+   | 22.17119 | Stddev |
+
+6. In confusion of taking mean or median for replacing 0 values, I just replaced all 0's with Random numbers between **0 to 100** so the overall data won't get affected. 
+7. Then I plotted histogram from the data, here it is.
+
+
+
+![1554444156128](images/app_sizes_mb.png)
+
+
+
+> Conclusion : 
+>
+> We have almost 1300 apps which have size less then 3 Mb and maximum apps are between 3-6 Mb sizes,
+> There are also apps with very high sizes but there numbers are low considering other sizes.
+
+### Range of size
+
+Starting from very small sizes from 0.008 Mb we have up to 100 Mb apps.
+
+![1554445570971](D:/ML_Python/Machine%20learning/Projects/Playstore/images/app_size_range.png)
