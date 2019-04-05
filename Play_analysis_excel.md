@@ -243,5 +243,15 @@ Starting from very small sizes from 0.008 Mb we have up to 100 Mb apps.
 
 
 
-### Relation between App size and installation count.
+### Relation between App size and installation count by categories.
+
+This is fairly challenging tasks, and report must be categories wise, or It would became uninterpretable 
+
+So, here I put the steps that I took and that clumsy graph and category wise graphs are available in another report.
+
+Steps: When I was graphing App sizes the problem happening was Sizes were in Fractional numbers for App sizes in Kb, that were very small.
+
+To summarize them I created a formula for perform refactoring those values.
+
+Check **App installs-vs-size-category**  sheet in **data_googleplaystore.xlsx** 
 
