@@ -239,4 +239,4 @@ In original data, App sizes were given in Mb and kb and also some entries are al
 
 Starting from very small sizes from 0.008 Mb we have up to 100 Mb apps.
 
-![1554445570971](D:/ML_Python/Machine%20learning/Projects/Playstore/images/app_size_range.png)
+![1554445570971](images/app_size_range.png)
