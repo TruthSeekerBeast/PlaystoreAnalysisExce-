@@ -261,8 +261,9 @@ Check **App installs-vs-size-category**  sheet in **data_googleplaystore.xlsx**
 
 Footnote:
 
-This kernel on kaggle for this specific dataset I found useful and elaborative.
+These kernels on kaggle for this specific dataset I found useful and elaborative.
 
 <https://www.kaggle.com/lava18/all-that-you-need-to-know-about-the-android-market>
 
- 
+<https://www.kaggle.com/akashram/google-play-store-data-exploration-baseline>
+
