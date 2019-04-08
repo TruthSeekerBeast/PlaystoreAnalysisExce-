@@ -255,3 +255,14 @@ To summarize them I created a formula for perform refactoring those values.
 
 Check **App installs-vs-size-category**  sheet in **data_googleplaystore.xlsx** 
 
+
+
+------
+
+Footnote:
+
+This kernel on kaggle for this specific dataset I found useful and elaborative.
+
+<https://www.kaggle.com/lava18/all-that-you-need-to-know-about-the-android-market>
+
+ 
