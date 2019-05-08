@@ -257,13 +257,63 @@ Check **App installs-vs-size-category**  sheet in **data_googleplaystore.xlsx**
 
 
 
+### Median App prices category wise.
+
+![1557316759006](images/category_median_price.png)
+
+
+
+
+
+### Median app sizes per categories.
+
+![1557316561669](images/app_median_sizes_category.png)
+
+
+
+### App sizes Vs Median installation counts.
+
+![1557322262228](images/median_install_vs_app_sizes.png)
+
+Hence, we can conclude that apps with big sizes are apps that have larger installation counts [Median]
+
+
+
+![1557322816542](images/mean_install_vs_app_sizes.png)
+
+
+
+### App price Vs Median install counts.
+
+
+
+![1557325929886](images/median_install_vs_price.png)
+
+
+
+
+
+### App prices Vs Mean Installation counts
+
+![1557327031850](images/mean_install_vs_price.png)
+
+
+
+
+
 ------
 
-Footnote:
+**Note:**
 
 These kernels on kaggle for this specific dataset I found useful and elaborative.
 
 <https://www.kaggle.com/lava18/all-that-you-need-to-know-about-the-android-market>
 
 <https://www.kaggle.com/akashram/google-play-store-data-exploration-baseline>
+
+
+
+
+
+
 
