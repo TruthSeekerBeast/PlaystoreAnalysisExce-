@@ -293,7 +293,7 @@ Games are by far has most app sizes median values which is obvious because gener
 
 
 
-Hence, With increasing app price installation counts will be less, as there will be limited users who will install costly apps.
+**Hence, With increasing app price installation counts will be less, as there will be limited users who will install costly apps.**
 
 
 
