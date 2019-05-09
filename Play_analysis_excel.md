@@ -196,7 +196,7 @@ For getting these counts, I have took simple pivot table of Content rating with 
 | Viber Messenger                                      |
 | LINE: Free Calls &   Messages                        |
 | Skype - free IM & video   calls                      |
-| PokÃ©mon GO                                          |
+| Pokamon GO                                           |
 | Pou                                                  |
 
 
