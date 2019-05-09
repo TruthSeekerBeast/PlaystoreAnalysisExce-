@@ -9,7 +9,7 @@ Data source : <https://www.kaggle.com/lava18/google-play-store-apps#googleplayst
 | Parameter      | Indicates                                                    |
 | -------------- | :----------------------------------------------------------- |
 | App            | Application name                                             |
-| **Category**   | Category the app belongs to                                  |
+| Category       | Category the app belongs to                                  |
 | Rating         | Overall user rating of the app (as when scraped)             |
 | Reviews        | Number of user reviews for the app (as when scraped)         |
 | Size           | Size of the app (as when scraped)                            |
