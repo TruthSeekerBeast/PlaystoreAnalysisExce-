@@ -1,4 +1,4 @@
-## Analysis of Play store apps 
+## Analysis of Play store apps
 
 Data source : <https://www.kaggle.com/lava18/google-play-store-apps#googleplaystore.csv>
 
@@ -243,25 +243,15 @@ Starting from very small sizes from 0.008 Mb we have up to 100 Mb apps.
 
 
 
-### Relation between App size and installation count by categories.
-
-This is fairly challenging tasks, and report must be categories wise, or It would became uninterpretable 
-
-So, here I put the steps that I took and that clumsy graph and category wise graphs are available in another report.
-
-Steps: When I was graphing App sizes the problem happening was Sizes were in Fractional numbers for App sizes in Kb, that were very small.
-
-To summarize them I created a formula for perform refactoring those values.
-
-Check **App installs-vs-size-category**  sheet in **data_googleplaystore.xlsx** 
 
 
-
-### Median App prices category wise.
+### Median App prices by category of app.
 
 ![1557316759006](images/category_median_price.png)
 
 
+
+Here, Event category has highest value as there is only one app in Event category that is Paid and it has 109$ price. Also, **Finance related apps are costlier than other categories.**
 
 
 
@@ -271,33 +261,39 @@ Check **App installs-vs-size-category**  sheet in **data_googleplaystore.xlsx**
 
 
 
-### App sizes Vs Median installation counts.
+Games are by far has most app sizes median values which is obvious because generally games has lot of graphics and game engines related things.
+
+ 
+
+### App sizes Vs installation counts. [Median]
 
 ![1557322262228](images/median_install_vs_app_sizes.png)
 
-Hence, we can conclude that apps with big sizes are apps that have larger installation counts [Median]
 
 
+### App sizes Vs installation counts. [Mean]
 
 ![1557322816542](images/mean_install_vs_app_sizes.png)
 
 
 
-### App price Vs Median install counts.
+**Hence, with Increasing app sizes also increase app counts.**
 
 
+
+### App price Vs install counts. [Median]
 
 ![1557325929886](images/median_install_vs_price.png)
 
 
 
-
-
-### App prices Vs Mean Installation counts
+### App price Vs install counts. [Mean]
 
 ![1557327031850](images/mean_install_vs_price.png)
 
 
+
+Hence, With increasing app price installation counts will be less, as there will be limited users who will install costly apps.
 
 
 
