@@ -307,6 +307,14 @@ These kernels on kaggle for this specific dataset I found useful and elaborative
 
 <https://www.kaggle.com/akashram/google-play-store-data-exploration-baseline>
 
+<https://www.kaggle.com/danilodiogo/google-play-store-eda-plotting-with-highcharts>
+
+<https://www.kaggle.com/mmsant/ratings-and-reviews-and-android-app-success>
+
+<https://www.kaggle.com/amrmahmoud123/rigorous-analysis-of-google-apps>
+
+<https://www.kaggle.com/ahmadjaved097/analyzing-the-google-playstore>
+
 
 
 
